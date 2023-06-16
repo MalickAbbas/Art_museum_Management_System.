@@ -1,0 +1,29 @@
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\bin\Debug\Museum(Catalog of art).exe.config
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\bin\Debug\Museum(Catalog of art).exe
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\bin\Debug\Museum(Catalog of art).pdb
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum(Catalog of art).csprojResolveAssemblyReference.cache
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Form1.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Properties.Resources.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum(Catalog of art).csproj.GenerateResource.Cache
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum(Catalog of art).exe
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum(Catalog of art).pdb
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\bin\Debug\Museum.mdf
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\bin\Debug\Museum_log.ldf
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Exhibition.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.visitor.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.staff.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Artmovement.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.AddMenu.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Museum.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Showmenu.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.DeleteMenu.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.DelArt.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.DelExib.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.DelVis.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Delstaff.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.DelMov.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.FilterData.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Filter.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Search.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.DataSort.resources
+D:\vp\LABS\Lab-04\Museum(Catalog of art)\Museum(Catalog of art)\obj\Debug\Museum_Catalog_of_art_.Summary.resources

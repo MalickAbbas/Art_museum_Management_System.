@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04692456-BA42-4D6F-BF77-5984C0697441}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Museum_Catalog_of_art_</RootNamespace>
+    <AssemblyName>Museum%28Catalog of art%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMenu.Designer.cs">
+      <DependentUpon>AddMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artmovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Artmovement.Designer.cs">
+      <DependentUpon>Artmovement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSort.Designer.cs">
+      <DependentUpon>DataSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelArt.Designer.cs">
+      <DependentUpon>DelArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteMenu.Designer.cs">
+      <DependentUpon>DeleteMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelExib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelExib.Designer.cs">
+      <DependentUpon>DelExib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelMov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelMov.Designer.cs">
+      <DependentUpon>DelMov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delstaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delstaff.Designer.cs">
+      <DependentUpon>Delstaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelVis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelVis.Designer.cs">
+      <DependentUpon>DelVis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exhibition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exhibition.Designer.cs">
+      <DependentUpon>Exhibition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filter.Designer.cs">
+      <DependentUpon>Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterData.Designer.cs">
+      <DependentUpon>FilterData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Museum.Designer.cs">
+      <DependentUpon>Museum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Showmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Showmenu.Designer.cs">
+      <DependentUpon>Showmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff.Designer.cs">
+      <DependentUpon>staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visitor.Designer.cs">
+      <DependentUpon>visitor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMenu.resx">
+      <DependentUpon>AddMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Artmovement.resx">
+      <DependentUpon>Artmovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSort.resx">
+      <DependentUpon>DataSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelArt.resx">
+      <DependentUpon>DelArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteMenu.resx">
+      <DependentUpon>DeleteMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelExib.resx">
+      <DependentUpon>DelExib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelMov.resx">
+      <DependentUpon>DelMov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delstaff.resx">
+      <DependentUpon>Delstaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelVis.resx">
+      <DependentUpon>DelVis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exhibition.resx">
+      <DependentUpon>Exhibition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filter.resx">
+      <DependentUpon>Filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterData.resx">
+      <DependentUpon>FilterData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Museum.resx">
+      <DependentUpon>Museum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Showmenu.resx">
+      <DependentUpon>Showmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff.resx">
+      <DependentUpon>staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visitor.resx">
+      <DependentUpon>visitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Museum.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Museum_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Museum.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
